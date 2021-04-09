@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "190267945954",
+    "firebase_url": "https://vancare-30f9b-default-rtdb.firebaseio.com",
+    "project_id": "vancare-30f9b",
+    "storage_bucket": "vancare-30f9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190267945954:android:9d5d15e32ba7007afdffbb",
+        "android_client_info": {
+          "package_name": "com.manpro.vancare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190267945954-v7cs8jqi11lvo7e5rkhhh181vu9m7dn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJcAaBidkeY-eTZp4hzMpxcUImJKZRSC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190267945954-v7cs8jqi11lvo7e5rkhhh181vu9m7dn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
