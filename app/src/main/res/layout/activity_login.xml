@@ -37,14 +37,95 @@
         android:layout_marginTop="200dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="600dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:cardCornerRadius="100dp"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:cardCornerRadius="100dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:translationZ="20dp"
+            android:padding="35dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editUsernameLog"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/username"
+                android:transitionName="edit_username"
+                app:layout_constraintTop_toBottomOf="@+id/signinTextLogin"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxStrokeColor="@color/main_colour">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editPasswordLog"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:transitionName="edit_password"
+                app:passwordToggleEnabled="true"
+                app:boxCornerRadiusTopStart="10dp"
+                app:boxCornerRadiusTopEnd="10dp"
+                app:boxCornerRadiusBottomStart="10dp"
+                app:boxCornerRadiusBottomEnd="10dp"
+                app:boxStrokeColor="@color/main_colour">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="28dp"
+                    android:textSize="14sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/buttonLoginLog"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="120dp"
+                android:background="@color/main_colour"
+                android:text="Login"
+                android:elevation="20dp"
+                android:transitionName="button_login" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_margin="0dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Don't Have An Account?"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/buttonForgetLog"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:fontFamily="@font/roboto"
+                android:text="Create Account"
+                android:textColor="@color/main_colour"
+                android:textSize="10sp" />
+
+        </LinearLayout>
 
     </androidx.cardview.widget.CardView>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

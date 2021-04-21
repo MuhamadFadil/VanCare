@@ -1,3 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">VanCare</string>
+    <string name="username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="kab">Kab / Kota</string>
+    <string name="alamat">Alamat Rumah</string>
+    <string name="nama_fak">Nama Faskes</string>
+    <string name="kelamin">Jenis Kelamin</string>
+    <string name="jenis">Jenis Kelamin</string>
+    <string name="tanggal">Tanggal Lahir</string>
+    <string name="nomor">Nomor HP</string>
+    <string name="email">Email Address</string>
+    <string name="pendaftaran_akun">Pendaftaran Akun</string>
+    <string name="nik">NIK</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="umur">Umur</string>
+    <string name="daftar">Daftar</string>
+    <string name="password_regis">Password</string>
+
+    <string-array name="kab_arrays">
+        <item>Jakarta Selatan</item>
+        <item>Jakarta Utara</item>
+        <item>Jakarta Timur</item>
+        <item>Jakarta Barat</item>
+        <item>Tangerang Selatan</item>
+        <item>Banten</item>
+        <item>Serpong</item>
+        <item>Oy oy</item>
+    </string-array>
+
+    <string-array name="kec_arrays">
+        <item>Cilandak Barat</item>
+        <item>Cilandak Selatan</item>
+        <item>kec1</item>
+        <item>kec2</item>
+        <item>kec3</item>
+        <item>kec4</item>
+        <item>kec5</item>
+        <item>kec6</item>
+    </string-array>
+
 </resources>
