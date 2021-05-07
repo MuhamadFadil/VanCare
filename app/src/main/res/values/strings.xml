@@ -1,44 +1,133 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">VanCare</string>
-    <string name="username">Enter Username</string>
-    <string name="password">Enter Password</string>
-    <string name="nama">Nama Lengkap</string>
-    <string name="kab">Kab / Kota</string>
-    <string name="alamat">Alamat Rumah</string>
-    <string name="nama_fak">Nama Faskes</string>
-    <string name="kelamin">Jenis Kelamin</string>
-    <string name="jenis">Jenis Kelamin</string>
-    <string name="tanggal">Tanggal Lahir</string>
-    <string name="nomor">Nomor HP</string>
-    <string name="email">Email Address</string>
-    <string name="pendaftaran_akun">Pendaftaran Akun</string>
-    <string name="nik">NIK</string>
-    <string name="kecamatan">Kecamatan</string>
-    <string name="umur">Umur</string>
-    <string name="daftar">Daftar</string>
-    <string name="password_regis">Password</string>
 
-    <string-array name="kab_arrays">
-        <item>Jakarta Selatan</item>
-        <item>Jakarta Utara</item>
-        <item>Jakarta Timur</item>
-        <item>Jakarta Barat</item>
-        <item>Tangerang Selatan</item>
+    <!--titles-->
+    <string name="first_title">Mempermudah Mendapatkan Vaksin</string>
+    <string name="second_title">Membantu Pelacakan COVID-19</string>
+    <string name="third_title">Memberikan Berita Seputar COVID-19</string>
+
+    <!--description-->
+    <string name="first_description">Memberikan informasi terkini akan ketersediaan vaksin pada daerah anda dan memberikan lokasi terdekat untuk melakukan vaksinasi.</string>
+    <string name="second_description">Dengan menyalakan lokasi pada perangkat anda, kita dapat melacak penyebaran dan membantu untuk mencegah penyebaran.</string>
+    <string name="third_description">Berita mengenai kondisi seputar dunia mengenai COVID-19</string>
+
+    <!--buttons-->
+    <string name="skip_btn">Lewati</string>
+    <string name="next_btn">Berikut</string>
+    <string name="start_btn">Mari Kita Mulai</string>
+
+    <!--ListKabupaten-->
+    <string-array name="list_kabupaten_Aceh">
+        <item>Kabupaten Aceh Barat</item>
+        <item>Kabupaten Aceh Barat Daya</item>
+        <item>Kabupaten Aceh Besar</item>
+        <item>Kabupaten Aceh Jaya</item>
+        <item>Kabupaten Aceh Selatan</item>
+        <item>Kabupaten Aceh Singkil</item>
+        <item>Kabupaten Aceh Tamiang</item>
+        <item>Kabupaten Aceh Tengah</item>
+        <item>Kabupaten Aceh Tenggara</item>
+        <item>Kabupaten Aceh Timur</item>
+        <item>Kabupaten Aceh Utara</item>
+        <item>Kabupaten Bener Meriah</item>
+        <item>Kabupaten Bireuen</item>
+        <item>Kabupaten Gayo Lues</item>
+        <item>Kabupaten Nagan Raya</item>
+        <item>Kabupaten Pidie</item>
+        <item>Kabupaten Pidie Jaya</item>
+        <item>Kabupaten Simeulue</item>
+        <item>Kota Banda Aceh</item>
+        <item>Kota Langsa</item>
+        <item>Kota Lhokseumawe</item>
+        <item>Kota Sabang</item>
+        <item>Kota Subulussalam</item>
+    </string-array>
+
+    <!--Kabupaten_Jakarta-->
+    <string-array name="list_kabupaten_jakarta">
+        <item>Kabupaten Kepulauan Seribu</item>
+        <item>Kota Jakarta Barat</item>
+        <item>Kota Jakarta Pusat</item>
+        <item>Kota Jakarta Selatan</item>
+        <item>Kota Jakarta Timur</item>
+        <item>Kota Jakarta Utara</item>
+    </string-array>
+
+    <!--Kecamatan_Jakarta-->
+    <string-array name="list_kecamatan_jakarta">
+        <item>Kecamatan Kebayoran Baru</item>
+        <item>Kecamatan Cilandak</item>
+        <item>Kecamatan Mampang Prapatan</item>
+        <item>Kecamatan Pesanggrahan</item>
+        <item>Kecamatan Tebet</item>
+        <item>Kecamatan Kebayoran Lama</item>
+        <item>Kecamatan Pasar Minggu</item>
+        <item>Kecamatan Jagakarsa</item>
+        <item>Kecamatan Pancoran</item>
+        <item>Kecamatan Setiabudi</item>
+    </string-array>
+
+
+    <!--provinsi-->
+    <string-array name="kabupaten">
+        <item>Aceh</item>
+        <item>Bali</item>
         <item>Banten</item>
-        <item>Serpong</item>
-        <item>Oy oy</item>
+        <item>Bengkulu</item>
+        <item>D.I Yogyakarta</item>
+        <item>D.K.I Jakarta</item>
+        <item>Gorontalo</item>
+        <item>Jambi</item>
+        <item>Jawa Barat</item>
+        <item>Jawa Tengah</item>
+        <item>Jawa Timur</item>
+        <item>Kalimantan Barat</item>
+        <item>Kalimantan Selatan</item>
+        <item>Kalimantan Tengah</item>
+        <item>Kalimantan Timur</item>
+        <item>Kalimantan Utara</item>
+        <item>Kepulauan Riau</item>
+        <item>Lampung</item>
+        <item>Maluku</item>
+        <item>Maluku Utara</item>
+        <item>Nusa Tenggara Barat</item>
+        <item>Nusa Tenggara Timur</item>
+        <item>Papua</item>
+        <item>Papua Barat</item>
+        <item>Riau</item>
+        <item>Sulawesi Barat</item>
+        <item>Sulawesi Selatan</item>
+        <item>Sulawesi Tengah</item>
+        <item>Sulawesi Tenggara</item>
+        <item>Sulawesi Utara</item>
     </string-array>
 
-    <string-array name="kec_arrays">
-        <item>Cilandak Barat</item>
-        <item>Cilandak Selatan</item>
-        <item>kec1</item>
-        <item>kec2</item>
-        <item>kec3</item>
-        <item>kec4</item>
-        <item>kec5</item>
-        <item>kec6</item>
+    <!--kecamatan-->
+    <string-array name="kecamatan">
+        <item>Klinik Pratama</item>
+        <item>Klinik Utama</item>
+        <item>KKP dan Wilker</item>
+        <item>Puskesmas</item>
+        <item>Rumah Sakit</item>
     </string-array>
+
+    <!--Faskes-->
+    <string-array name="faskes">
+        <item>Klinik Pratama</item>
+        <item>Klinik Utama</item>
+        <item>KKP dan Wilker</item>
+        <item>Puskesmas</item>
+        <item>Rumah Sakit</item>
+    </string-array>
+
+    <!--JenisKelamin-->
+    <string-array name="jenisKelamin">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="buttonRegisterLog" type="id" />
-    <item name="buttonLoginLog" type="id" />
-    <item name="picLogoLogin" type="id" />
-    <item name="welcomeTextLogin" type="id" />
-    <item name="editUsernameLog" type="id" />
-    <item name="editPasswordLog" type="id" />
-</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/design_bottom_sheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#00000000"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="530dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#00000000"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        android:layout_marginTop="0dp"
+        android:foregroundGravity="bottom"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.cardview.widget.CardView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_colour"
+            app:cardCornerRadius="50dp"
+            android:layout_marginTop="20dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="30dp"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="5dp"
+                    app:cardBackgroundColor="@color/main_colour"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lokasi Anda"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="14dp"
+                    android:textStyle="bold"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Indikasi Zona"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="14dp"
+                    android:textStyle="bold"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah Kasus COVID-19"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="14dp"
+                    android:textStyle="bold"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rumah Sakit Terdekat"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:fontFamily="@font/roboto"
+                    android:textSize="14dp"
+                    android:textStyle="bold"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
