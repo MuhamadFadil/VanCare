@@ -51,7 +51,7 @@
                         android:padding="40dp">
 
                         <com.google.android.material.textfield.TextInputLayout
-                            android:id="@+id/editNameReg"
+                            android:id="@+id/nameReg"
                             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
-                            android:id="@+id/editEmailReg"
+                            android:id="@+id/emailReg"
                             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -216,7 +216,7 @@
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
-                            android:id="@+id/ageReg"
+                            android:id="@+id/umurReg"
                             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -304,6 +304,7 @@
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <Button
+                            android:id="@+id/regButton"
                             android:layout_width="150dp"
                             android:layout_height="40dp"
                             android:layout_gravity="center"
@@ -321,6 +322,7 @@
 
 
                         <Button
+                            android:id="@+id/backToLogin"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="50dp"
